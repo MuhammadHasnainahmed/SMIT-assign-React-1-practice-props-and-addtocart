@@ -1,0 +1,19 @@
+/* Button ka container style karo */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;      /* arrow ka rang */
+  width: 50px !important;       /* button ka area */
+  height: 50px !important;      /* button ka area */
+  background: rgba(0, 0, 0, 0.5) !important; /* circle background */
+  border-radius: 50% !important;
+  padding: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Arrow ka symbol (jo inside hota hai) */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;  /* arrow ka size */
+}
